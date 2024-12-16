@@ -12,7 +12,7 @@ require('./config/db')
 
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://placefind.netlify.app',
     methods: ['GET', 'POST', 'PATCH', 'DELETE','PUT'],
     credentials: true,
     
